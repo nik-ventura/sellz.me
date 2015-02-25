@@ -1,0 +1,59 @@
+
+// Styling of form elements
+input, select, textarea {
+  font-size: 16px;
+  outline: none;
+}
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+  font-weight: lighter;
+}
+// Texarea simulation
+.search-wrap{
+  position: relative;
+  border-bottom: 1px solid #f1f1f1;
+  i {
+    position: absolute;
+    right: 0.2em;
+    top: 0.5em;
+    color: #e8e8e8;
+    font-size: 1.7em;
+  }
+}
+.search-textarea, textarea, input  {
+  position: relative;
+  width: 100%;
+  min-height: 5em;
+  height: auto;
+  //border: 1px solid $brand-blue;
+  font-size: 14px;
+  padding: 1em;
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+  outline: none;
+  color: $text-color;
+  background: #fff;
+  span {
+    color: #8e8e8e;
+    display: none;
+    &.active {
+      display: block;
+    }
+  }
+  a {
+    cursor: pointer;
+  }
+}
+textarea, input  {
+  position: relative;
+  background: #fff!important;
+  width: 100%;
+  height: auto;
+  border: 0px solid $brand-blue;
+  font-size: 14px;
+  padding: 1em;
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+  outline: none;
+  color: $text-color;
+  span {
+    color: #8e8e8e;
+  }
+}

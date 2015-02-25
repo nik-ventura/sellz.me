@@ -1,0 +1,425 @@
+
+<div class="row">
+
+  <!-- Loading navigation --->
+  <!--<div ng-include='"views/shared/_navigation.html"'></div>-->
+  <div class="menu col-md-3 col-xs-4">
+
+    <div class="header">
+      <ul>
+        <li ><a href="" id="activity-menu"><i class="icon-dvr"></i></a></li>
+        <li><a href="" id="inbox-menu"><i class="icon-chat"></i><span class="animated fadeInUp">3</span></a></li>
+        <li class="active"><a href="" id="search-menu"><i class="icon-search"></i></a></li>
+      </ul>
+    </div>
+    <div class="menu-collection">
+      <div class="search-menu animated active">
+
+
+        <div class="section tag-cloud keywords">
+          <h3>{{'GROUPS_YOURS' | translate}}</h3>
+          <div class="section search-box">
+            <div class="search-textarea" contenteditable="false">
+              <span class="active">{{'GROUPS_YOURS_PLACEHOLDER' | translate}}</span>
+              <div class="result-controls">
+                <a href="" class="remove-all">{{'REMOVE_ALL' | translate}}</a>
+                <a href="">{{'SAVE_FAVORITES' | translate}}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section tag-cloud groups">
+          <h3>{{'GROUPS_TRENDING' | translate}}</h3>
+          <ul>
+            <li><a href="" class="tag groups">@{{'TAG_GIVE_AWAY' | translate}}</a></li>
+            <li><a href="" class="tag groups">@{{'TAG_EURO_CLUB' | translate}}</a></li>
+            <li><a href="" class="tag groups">@{{'TAG_MOMS_KIDS' | translate}}</a></li>
+            <li><a href="" class="tag groups">@{{'TAG_ELECTRONICS' | translate}}</a></li>
+            <li><a href="" class="tag groups">@{{'TAG_FLEW_MARKET' | translate}}</a></li>
+            <li><a href="" class="tag groups">@{{'TAG_HANDSMADE' | translate}}</a></li>
+            <li><a href="" class="tag groups">@{{'TAG_TICKETS' | translate}}</a></li>
+            <li><a href="" class="tag groups">@{{'TAG_JOB_OFFERS' | translate}}</a></li>
+            <li><a href="" class="tag groups">@{{'TAG_FURNITURE' | translate}}</a></li>
+          </ul>
+          <a class="show-more " href="">{{'SHOW_ALL_GROUPS' | translate}} (33)</a>
+        </div>
+
+        <div class="section tag-cloud discounts">
+          <h3>{{'GROUPS_DISCOUNTS' | translate}}</h3>
+          <ul>
+            <li><a href="" class="tag discounts">{{'DISCOUNT_COSMETICS' | translate}} </a></li>
+            <li><a href="" class="tag discounts">{{'DISCOUNT_GROCERY' | translate}} </a></li>
+            <li><a href="" class="tag discounts">{{'DISCOUNT_AUTO_CLUB' | translate}} </a></li>
+            <li><a href="" class="tag discounts">{{'DISCOUNT_BEAUTY_SPA' | translate}} </a></li>
+            <li><a href="" class="tag discounts">{{'DISCOUNT_COSMETICS' | translate}} </a></li>
+            <li><a href="" class="tag discounts">{{'DISCOUNT_BRAND_HM' | translate}} </a></li>
+            <li><a href="" class="tag discounts">{{'DISCOUNT_BRAND_ZARA' | translate}} </a></li>
+            <li><a href="" class="tag discounts">{{'DISCOUNT_BRAND_PRISMA' | translate}} </a></li>
+          </ul>
+          <a class="show-more " href="">{{'SHOW_ALL_DISCOUNTS' | translate}} (20)</a>
+        </div>
+      </div>
+
+      <!-- Inbox menu --->
+      <div class="inbox-menu animated">
+        <div class="comment">
+          <div class="comment-avatar">
+            <img src="images/avatar-user.jpg" alt=""/>
+          </div>
+          <div class="comment-body">
+            <span class="comment-user">Kenny McCormick</span>
+            <span class="comment-text">I will take it for $25</span>
+          </div>
+        </div>
+        <div class="comment">
+          <div class="comment-avatar">
+            <img src="images/avatar-user2.jpg" alt=""/>
+          </div>
+          <div class="comment-body">
+            <span class="comment-user">Eric Cartman</span>
+            <span class="comment-text">How much for the entire set?</span>
+          </div>
+        </div>
+        <div class="comment">
+          <div class="comment-avatar">
+            <img src="images/avatar-logged-in.jpg" alt=""/>
+          </div>
+          <div class="comment-body">
+            <span class="comment-user">Timmy</span>
+            <span class="comment-text">Let's agree where we meet or maybe you can send it to my by post. I will pay postage.</span>
+          </div>
+        </div>
+        <div class="comment">
+          <div class="comment-avatar">
+            <img src="images/avatar-user.jpg" alt=""/>
+          </div>
+          <div class="comment-body">
+            <span class="comment-user">Stan Marsh</span>
+            <span class="comment-text">My price $25</span>
+          </div>
+        </div>
+        <div class="comment">
+          <div class="comment-avatar">
+            <img src="images/avatar-user2.jpg" alt=""/>
+          </div>
+          <div class="comment-body">
+            <span class="comment-user">Kyle Broflovski</span>
+            <span class="comment-text">Are you willing to exchange it for model B</span>
+          </div>
+        </div>
+      </div>
+      <!-- end Inbox menu --->
+
+      <!-- Activity menu --->
+      <div class="activity-menu animated">
+        <div class="activity-item">
+          <span><i class="icon-report-problem"></i></span>
+          <span>You <em>reported post</em> <span class="time-stamp">February 16 at 6:02pm</span></span>
+          <span class="undo">undo<br><i class="icon-restore"></i></span>
+        </div>
+        <div class="activity-item">
+          <span><i class="icon-chat"></i></span>
+          <span>You <em>left comment</em> to <a href="">Eric Cartman</a> <span class="time-stamp">1h ago</span></span>
+          <span class="undo">undo<br><i class="icon-restore"></i></span>
+        </div>
+        <div class="activity-item">
+          <span><i class="icon-view-list"></i></span>
+          <span>You <em>some very long action goes here</em> for <a href="">Kyle Broflovski</a> <span class="time-stamp">February 16 at 6:02pm</span></span>
+          <span class="undo">undo<br><i class="icon-restore"></i></span>
+        </div>
+        <div class="activity-item">
+          <span><i class="icon-edit"></i></span>
+          <span>You <em>updated post</em> <span class="time-stamp">1h ago</span></span>
+          <span class="undo">undo<br><i class="icon-restore"></i></span>
+        </div>
+      </div>
+      <!-- end Activity menu --->
+
+    </div>
+
+  </div>
+
+  <div class="messanger animated fadeInUp">
+    <a href="" class="close-btn"><i class="icon-highlight-remove"></i></a>
+    <div class="message">
+      <div class="message-avatar">
+        <img src="images/avatar-user.jpg" alt=""/>
+      </div>
+      <div class="message-body">
+        <span class="message-text">My price $25</span>
+      </div>
+    </div>
+
+    <div class="message owner">
+      <div class="message-avatar">
+        <img src="images/avatar-logged-in.jpg" alt=""/>
+      </div>
+      <div class="message-body">
+        <span class="message-text">How about $30, I think it's fare price</span>
+      </div>
+    </div>
+
+    <div class="message">
+      <div class="message-avatar">
+        <img src="images/avatar-user.jpg" alt=""/>
+      </div>
+      <div class="message-body">
+        <span class="message-text">Ok, deal. When can I come and get it?</span>
+      </div>
+    </div>
+    <div class="comment">
+      <div class="comment-avatar">
+        <img src="images/avatar-logged-in.jpg" alt="">
+      </div>
+      <div class="comment-body">
+        <i class="icon-chat"></i>
+        <textarea placeholder="{{'WRITE_COMMENT_PLACEHOLDER' | translate}}"></textarea>
+      </div>
+    </div>
+  </div>
+  <!-- end Loading navigation --->
+
+  <!-- Content --->
+  <div class="content  col-md-9 col-xs-8">
+    <div class="col-md-6">
+
+      <!-- Create post --->
+      <div class="col-md-12 create-post">
+        <textarea placeholder="{{ 'NEW_POST_PLACEHOLDER' | translate}}" ng-model="desc" ng-trim="false" maxlength="240"></textarea>
+        <span class="desc-count">{{240- desc.length}} {{ 'COUNT_LEFT' | translate}} </span>
+        <div class="create-post-tools">
+          <ul class="clearfix">
+            <li><a href=""><i class="icon-camera-alt"></i></a></li>
+            <li><a href=""><i class="icon-email"></i></a></li>
+            <li class="pull-right"><a href="" class="btn btn-primary">{{ 'POST' | translate}} <i class="icon-add"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- end Create post --->
+
+      <!-- Layout/Content controls --->
+      <div class="post-controls col-md-12">
+        <ul class="post-controls-content">
+          <li class="active"><a href=""  data-ng-click="getAllPosts()">{{'POST_CONTROLS_SHOW_ALL' | translate }}</a></li>
+          <li><a href="" class="show-favorites">{{'POST_CONTROLS_FAVORITES' | translate }}</a></li>
+          <li><a href=""  data-ng-click="getMyPosts()">{{'POST_CONTROLS_MY_POSTS' | translate }}</a></li>
+          <li><a href="" >{{'POST_CONTROLS_FOLLOW_LIST' | translate }}</a></li>
+        </ul>
+        <ul class="post-controls-layout">
+          <li class="active"><a href=""  class="set-list-view"><i class="icon-view-list"></i></a></li>
+          <li><a href="" class="set-gallery-view"><i class="icon-view-module"></i></a></li>
+        </ul>
+        <div class="search-wrap">
+          <input style='min-height: 2em' placeholder="{{ 'SEARCH_POSTS_PLACEHOLDER' | translate}}" ng-model="searchText">
+          <i class="icon-search"></i>
+        </div>
+      </div>
+      <!-- end Layout/Content controls --->
+
+      <!-- Post --->
+      <div class="col-md-12 post" on-finish-render="ngRepeatFinished" data-ng-repeat="post in posts | filter:searchText | orderBy:'post.desc'">
+
+        <!-- Post edit block available for post owner --->
+        <div class="post-tools" ng-if="post.personal === true">
+          <ul class="clearfix">
+            <li><a href=""><i class="icon-edit"></i></a></li>
+            <li><a href=""><i class="icon-arrow-up-thick"></i></a></li>
+            <li class="pull-right"><a href="" class="remove-post"><i class="icon-trashcan"></i></a></li>
+          </ul>
+        </div>
+        <!-- end --->
+
+        <!-- Post owner block --->
+        <div class="post-owner">
+           <div class="post-owner-avatar">
+             <img ng-src="{{post.user.avatar}}"/>
+           </div>
+          <div class="post-owner-name">
+            <span>
+              {{post.user.name}}<br>
+              <span class="time-stamp">
+                {{post.post.date}}
+              </span>
+            </span>
+          </div>
+        </div>
+        <!-- end Post owner block --->
+        <div class="post-watch" data-ng-hide="post.personal === true">
+          <a href="">{{'FOLLOW_POST' | translate}} <i class="icon-add-circle-outline"></i></a>
+        </div>
+        <!-- Post main content --->
+        <div class="post-desc" data-ng-if="post.post.gallery[0] != undefined">
+          <p>{{post.post.desc}}</p>
+        </div>
+        <div class="post-desc active" data-ng-if="post.post.gallery[0] === undefined">
+          <p>{{post.post.desc}}</p>
+        </div>
+
+        <div class="post-tags tag-cloud groups">
+          <ul>
+            <li data-ng-repeat="tag in post.post.tags"><a href="" class="tag groups">{{tag.tag}}</a></li>
+          </ul>
+        </div>
+
+        <div class="post-gallery" data-ng-hide="post.post.gallery[0] === undefined">
+          <img data-ng-src="{{post.post.gallery[0]}}"/>
+        </div>
+        <!-- end Post main content --->
+
+
+        <!-- Post comments --->
+        <div class="post-comments">
+          <div class="post-comments-show">
+             <a href=""><i class="icon-chat"></i> {{'READ_ALL_COMMENTS' | translate}} (2)</a>
+          </div>
+          <div class="post-comments-list">
+              <div class="comment" data-ng-repeat="comment in post.comments">
+                <a class="remove" href=""><i class="icon-highlight-remove"></i></a>
+                <div class="comment-avatar">
+                  <img data-ng-src="{{comment.owner_avatar}}"/>
+                </div>
+                <div class="comment-body">
+                  <span class="comment-user">{{comment.owner}}</span>
+                  <span class="comment-text">{{comment.body}}</span>
+                </div>
+              </div>
+
+            <div class="comment">
+              <div class="comment-avatar">
+                <img src="images/avatar-logged-in.jpg" alt=""/>
+              </div>
+              <div class="comment-body">
+                <i class="icon-chat"></i>
+                <textarea placeholder="{{'WRITE_COMMENT_PLACEHOLDER' | translate}}"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end Post comments--->
+
+        <!-- Post action tools --->
+        <div class="post-actions clearfix">
+          <!-- Sharing post --->
+          <div class="post-actions-share">
+            <span>{{'POST_ACTION_SHARE' | translate}}  <i class="icon-share"></i></span>
+          </div>
+          <!-- Reporting post --->
+          <div class="post-actions-report" ng-if="post.personal === false">
+            <span>{{'POST_ACTION_REPORT' | translate}} <i class="icon-report-problem"></i></span>
+            <ul>
+              <li><a href="">{{'POST_ACTION_REMOVE' | translate}}</a></li>
+              <li><a href="">{{'POST_ACTION_SPAM' | translate}}</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- end Post action tools --->
+
+      </div>
+      <!-- end Post --->
+
+    </div>
+    <div class="col-md-6">
+      <!-- Post --->
+      <div class="col-md-12 post" data-ng-repeat="post in posts | filter:searchText | orderBy:'user.name'">
+
+        <!-- Post edit block available for post owner --->
+        <div class="post-tools" ng-if="post.personal === true">
+          <ul class="clearfix">
+            <li><a href=""><i class="icon-edit"></i></a></li>
+            <li><a href=""><i class="icon-arrow-up-thick"></i></a></li>
+            <li class="pull-right"><a href="" class="remove-post"><i class="icon-trashcan"></i></a></li>
+          </ul>
+        </div>
+        <!-- end --->
+
+        <!-- Post owner block --->
+        <div class="post-owner">
+          <div class="post-owner-avatar">
+            <img ng-src="{{post.user.avatar}}"/>
+          </div>
+          <div class="post-owner-name">
+            <span>
+              {{post.user.name}}<br>
+              <span class="time-stamp">
+                {{post.post.date}}
+              </span>
+            </span>
+          </div>
+        </div>
+        <!-- end Post owner block --->
+
+        <!-- Post main content --->
+        <div class="post-desc" data-ng-if="post.post.gallery[0] != undefined">
+          <p>{{post.post.desc}}</p>
+        </div>
+        <div class="post-desc active" data-ng-if="post.post.gallery[0] === undefined">
+          <p>{{post.post.desc}}</p>
+        </div>
+
+        <div class="post-tags tag-cloud groups">
+          <ul>
+            <li data-ng-repeat="tag in post.post.tags"><a href="" class="tag groups">{{tag.tag}}</a></li>
+          </ul>
+        </div>
+
+        <div class="post-gallery" data-ng-hide="post.post.gallery[0] === undefined">
+          <img data-ng-src="{{post.post.gallery[0]}}"/>
+        </div>
+        <!-- end Post main content --->
+
+
+        <!-- Post comments --->
+        <div class="post-comments">
+          <div class="post-comments-show">
+            <a href=""><i class="icon-chat"></i> {{'READ_ALL_COMMENTS' | translate}} (2)</a>
+          </div>
+          <div class="post-comments-list">
+            <div class="comment" data-ng-repeat="comment in post.comments">
+              <a class="remove" href=""><i class="icon-highlight-remove"></i></a>
+              <div class="comment-avatar">
+                <img data-ng-src="{{comment.owner_avatar}}"/>
+              </div>
+              <div class="comment-body">
+                <span class="comment-user">{{comment.owner}}</span>
+                <span class="comment-text">{{comment.body}}</span>
+              </div>
+            </div>
+
+            <div class="comment">
+              <div class="comment-avatar">
+                <img src="images/avatar-logged-in.jpg" alt=""/>
+              </div>
+              <div class="comment-body">
+                <i class="icon-chat"></i>
+                <textarea placeholder="{{'WRITE_COMMENT_PLACEHOLDER' | translate}}"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end Post comments--->
+
+        <!-- Post action tools --->
+        <div class="post-actions clearfix">
+          <!-- Sharing post --->
+          <div class="post-actions-share">
+            <span>{{'POST_ACTION_SHARE' | translate}}  <i class="icon-share"></i></span>
+          </div>
+          <!-- Reporting post --->
+          <div class="post-actions-report" ng-if="post.personal === false">
+            <span>{{'POST_ACTION_REPORT' | translate}} <i class="icon-report-problem"></i></span>
+            <ul>
+              <li><a href="">{{'POST_ACTION_REMOVE' | translate}}</a></li>
+              <li><a href="">{{'POST_ACTION_SPAM' | translate}}</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- end Post action tools --->
+
+      </div>
+      <!-- end Post --->
+    </div>
+  </div>
+</div>
+
+

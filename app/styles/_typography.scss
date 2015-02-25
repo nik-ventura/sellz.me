@@ -1,0 +1,22 @@
+
+body {
+  font-size: 16px;
+}
+// Variables
+$fontSizeBase:1em;
+$fontSizeSmall:0.7em;
+$fontFamilyBase: 'Raleway', sans-serif;
+$fontLight:100;
+$fontMedium:400;
+$fontBold:700;
+$fontColorBase: #3399cc;
+// Base typography
+body {
+  font-family: $fontFamilyBase;
+  font-size: $fontSizeBase;
+  color:#fff;
+}
+em {
+  font-style: normal;
+  color: $brand-blue;
+}

@@ -1,0 +1,53 @@
+[
+
+    {
+        "personal":true,
+        "user":
+        {
+            "name": "Nik Ventura",
+            "avatar":  "../images/avatar-logged-in.jpg"
+        }
+        ,
+        "post": {
+            "date": "February 15 at 6:02pm",
+            "desc": "Wrist accessory. A perfect addition to a collection or a Keepsake gift for that special child of yours or one that is loved by many!!!! Price $12" ,
+            "tags": [
+                {"tag":"@give-away"},
+                {"tag":"@flew-market"}
+            ],
+            "gallery": [
+                "../images/designs/sample-image2.jpg"
+            ]
+
+        },
+        "comments": [
+            {"owner": "Eric Cartman", "owner_avatar":"../images/avatar-cartman.jpg", "body": "Some comment by user is left here. I will take it for Some comment by user is left here. I will take it for 17.74€"}
+        ]
+    },
+    {
+        "personal":true,
+        "user":
+        {
+            "name": "Nik Ventura",
+            "avatar":  "../images/avatar-logged-in.jpg"
+        }
+        ,
+        "post": {
+            "date": "February 15 at 6:02pm",
+            "desc": "Qui dicat delenit eloquentiam ea, vix justo philosophia in. Has causae erroribus at, mei cu clita. Has causae erroribus at, mei cu clita 17.74€." ,
+            "tags": [
+                {"tag":"@give-away"},
+                {"tag":"@flew-market"}
+            ],
+            "gallery": [
+                "../images/designs/sample-image4.jpg",
+                "../images/designs/sample-image5.jpg"
+            ]
+
+        },
+        "comments": [
+            {"owner": "Eric Cartman", "owner_avatar":"../images/avatar-cartman.jpg", "body": "Some comment by user is left here. I will take it for Some comment by user is left here. I will take it for 17.74€"}
+        ]
+    }
+
+]
